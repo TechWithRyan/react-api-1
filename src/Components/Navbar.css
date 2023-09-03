@@ -1,0 +1,39 @@
+.links {
+    list-style-type: none;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-is-transparent {
+    margin: 0px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    border-radius: 40px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: white;
+}

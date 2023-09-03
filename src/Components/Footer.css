@@ -1,0 +1,7 @@
+.footer-is-transparent {
+    bottom: 0;
+    position: absolute;
+    height: 3rem;
+    width: 100%;
+    color: white;
+}
