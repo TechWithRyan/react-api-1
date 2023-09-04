@@ -6,6 +6,21 @@
   width: 100%;
 }
 
+.background1 {
+  background-image: url('/src/assets/6.jpg');
+}
+
+.background2 {
+  background-image: url('/assets/7.jpg');
+}
+
+.background3 {
+  background-image: url('/assets/8.jpg');
+}
+
+.background4 {
+  background-image: url('/assets/9.jpg');
+}
 
 
 @media (max-width: 1024px {
