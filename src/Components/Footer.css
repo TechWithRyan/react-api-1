@@ -1,5 +1,6 @@
 .footer-is-transparent {
-    bottom: 0;
+
+    margin-top: auto;
     position: absolute;
     height: 3rem;
     width: 100%;

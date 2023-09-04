@@ -3,16 +3,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
+.btn a {
+    color: white;
+}
+
+.btn a:hover {
+    color: black;
+}
 
 .btn {
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 7rem auto;
     height: 3rem;
-    width: 9rem;
+    width: 8rem;
     font-size: 1rem;
+    background-color: rgb(8, 64, 229);
+    border-radius: 40px;
+
 }
 
 .title {

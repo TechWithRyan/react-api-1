@@ -2,10 +2,11 @@
 
 .App {
   text-align: center;
-  background: black url('./assets/4.jpg') center / cover;
-  height: 100vh;
+  background: black url('./assets/7.jpg') center / cover;
   width: 100%;
 }
+
+
 
 @media (max-width: 1024px {
     .App {
