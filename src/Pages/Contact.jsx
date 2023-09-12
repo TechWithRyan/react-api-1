@@ -2,7 +2,13 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <h1 className='title color is-1'>Contact</h1>
+        <div className="container">
+
+            <h1 className='title color is-1'>Contact us</h1>
+            <hero className="hero is-fullheight">
+                <button className='btn is-overlay'><a href="/">Email</a></button>
+            </hero>
+        </div>
     )
 }
 
