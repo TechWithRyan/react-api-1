@@ -56,4 +56,15 @@ button {
     font-weight: 400;
     font-size: 1.2rem;
     cursor: pointer;
+    border: none;
+}
+
+a:-webkit-any-link {
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn {
+    margin: 20px;
 }

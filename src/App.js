@@ -1,29 +1,37 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import Home from './Pages/Home';
 import About from './Pages/About';
-import Contact from './Pages/Contact';
 import Store from './Pages/Store';
-import Profile from './Components/Profile';
 import { Routes, Route } from 'react-router-dom';
 import React, { Profiler } from 'react';
 import Footer from './Components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Cancel from './Pages/Cancel';
+import Success from './Pages/Success';
+import { Container } from 'react-bootstrap';
+import CartProvider from './CartContext';
+
+
 
 function App() {
   return (
-    <>
+
+    <CartProvider>
       <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/profile" element={<Profile />} />
-        </Routes>
+        <Container>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Store />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/success" element={<Success />} />
+            <Route path="/store" element={<Store />} />
+            <Route path="/cancel" element={<Cancel />} />
+          </Routes>
+        </Container>
         <Footer />
       </div>
-    </>
+    </CartProvider>
+
   );
 }
 

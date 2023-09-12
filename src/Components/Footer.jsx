@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='footer is-transparent' >
             <div className='content has-text-centered'>
-                <p>Copyright @Techwithryan | Epost: ryanswayit.se Mobil: 0760581267
+                <p>Copyright @Techwithryan | Epost: ryanswayit.se
                 </p>
             </div>
 

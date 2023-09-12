@@ -14,7 +14,6 @@
     color: black;
 }
 
-
 .btn {
     display: flex;
     justify-content: center;
@@ -26,6 +25,7 @@
     border-radius: 40px;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .title {
@@ -37,8 +37,6 @@
     margin-top: 10rem;
     display: flex;
 }
-
-
 
 .text {
     width: 50%;
